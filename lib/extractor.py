@@ -44,7 +44,7 @@ class SourceType(Enum):
 
 class KddiExtraction:
     KEY_WORDS = ["新設", "既設", "撤去", "将来"]
-    IGNORE_WORDS = ["EAC殿", "SBM殿", "既設設備(KDDI資産)", "本工事撤去", "他社施工分", "既設流用", "将来用設備"]
+    IGNORE_WORDS = ["C殿", "M殿", "既設設備", "本工事撤去", "他社施工分", "既設流用", "将来用設備"]
     extraction_id = 1
     
     def __init__(self, bound, raw_text):
